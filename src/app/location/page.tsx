@@ -13,7 +13,7 @@ export default function LocationPage() {
             <h1 className="font-[var(--font-playfair)] text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3">
               오시는길
             </h1>
-            <p className="text-lg text-white/60 max-w-md">
+            <p className="text-lg text-white/75 max-w-md">
               와이스펜 어학원을 방문해주세요
             </p>
           </AnimatedSection>
@@ -166,7 +166,7 @@ export default function LocationPage() {
               <h2 className="font-[var(--font-playfair)] text-2xl md:text-3xl font-bold text-white mb-3">
                 Start Your Journey
               </h2>
-              <p className="text-white/60 text-sm md:text-base max-w-md mx-auto mb-8">
+              <p className="text-white/75 text-sm md:text-base max-w-md mx-auto mb-8">
                 와이스펜 어학원에서 영어 실력을 한 단계 높여보세요.
                 <br className="hidden sm:block" />
                 상담 예약은 전화로 문의해 주세요.

@@ -84,7 +84,7 @@ export default function Header() {
               className={`ml-4 flex items-center gap-2 px-5 py-2.5 rounded-none text-sm font-semibold transition-colors duration-200 ${
                 isScrolled
                   ? "bg-navy text-white hover:bg-navy-light"
-                  : "bg-white/15 text-white hover:bg-white/25 border border-white/20"
+                  : "bg-white/15 text-white hover:bg-white/25 border border-white/40"
               }`}
             >
               <Phone className="w-3.5 h-3.5" />

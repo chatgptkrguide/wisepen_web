@@ -61,7 +61,7 @@ export default function Footer() {
             <h3 className="text-sm font-semibold text-white/70">연락처</h3>
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 mt-0.5 text-white/40 shrink-0" />
+                <MapPin className="w-4 h-4 mt-0.5 text-white/50 shrink-0" />
                 <p className="text-sm text-white/60 leading-relaxed">
                   경기도 고양시 일산서구 일산로 562
                   <br />
@@ -69,7 +69,7 @@ export default function Footer() {
                 </p>
               </div>
               <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-white/40 shrink-0" />
+                <Phone className="w-4 h-4 text-white/50 shrink-0" />
                 <a
                   href="tel:031-915-2185"
                   className="text-sm text-white/60 hover:text-white transition-colors"
@@ -78,7 +78,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-white/40 shrink-0" />
+                <Mail className="w-4 h-4 text-white/50 shrink-0" />
                 <a
                   href="mailto:Arnold@wisepenenglish.com"
                   className="text-sm text-white/60 hover:text-white transition-colors"
@@ -92,7 +92,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="py-5 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-xs text-white/40">
+          <p className="text-xs text-white/50">
             &copy; {new Date().getFullYear()} Wisepen Language Institute. All
             rights reserved.
           </p>

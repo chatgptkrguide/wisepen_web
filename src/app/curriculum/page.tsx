@@ -112,7 +112,7 @@ export default function CurriculumPage() {
             </p>
           </AnimatedSection>
           <AnimatedSection delay={0.4} direction="up">
-            <p className="text-white/50 text-sm tracking-wide">
+            <p className="text-white/70 text-sm tracking-wide">
               Reading / Writing / Listening / Speaking
             </p>
           </AnimatedSection>
@@ -261,7 +261,7 @@ export default function CurriculumPage() {
               Program
               <span className="text-gold-light"> Levels</span>
             </h2>
-            <p className="text-white/50 max-w-xl leading-relaxed">
+            <p className="text-white/70 max-w-xl leading-relaxed">
               레벨테스트 결과에 따라 가장 적합한 레벨에 배치됩니다.
             </p>
           </AnimatedSection>
@@ -310,7 +310,7 @@ export default function CurriculumPage() {
                           className={`text-sm font-bold ${
                             row.speaking
                               ? "text-green-400"
-                              : "text-white/25"
+                              : "text-white/50"
                           }`}
                         >
                           {row.speaking ? "O" : "-"}
@@ -343,15 +343,15 @@ export default function CurriculumPage() {
                     <span className="text-gold-light font-bold text-sm">
                       {row.level}
                     </span>
-                    <span className="text-white/50 text-xs">
+                    <span className="text-white/70 text-xs">
                       배치 점수: {row.score}
                     </span>
                   </div>
                   <p className="text-white/70 text-sm mb-2">{row.subjects}</p>
-                  <div className="flex gap-4 text-xs text-white/40">
+                  <div className="flex gap-4 text-xs text-white/60">
                     <span>
                       Speaking{" "}
-                      <span className={row.speaking ? "text-green-400 font-bold" : "text-white/25"}>
+                      <span className={row.speaking ? "text-green-400 font-bold" : "text-white/50"}>
                         {row.speaking ? "O" : "-"}
                       </span>
                     </span>
@@ -364,7 +364,7 @@ export default function CurriculumPage() {
             </div>
 
             {/* Legend */}
-            <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-8 text-white/40 text-sm">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-8 text-white/60 text-sm">
               <span>
                 <strong className="text-white/60">E group</strong> &mdash;
                 Elementary (초등)
@@ -386,7 +386,7 @@ export default function CurriculumPage() {
               Start Your
               <span className="text-gold-light"> Journey</span>
             </h2>
-            <p className="text-white/50 max-w-lg mx-auto leading-relaxed mb-8">
+            <p className="text-white/70 max-w-lg mx-auto leading-relaxed mb-8">
               레벨테스트를 통해 학생에게 가장 적합한 과정을 안내해 드립니다.
               지금 상담을 예약하세요.
             </p>

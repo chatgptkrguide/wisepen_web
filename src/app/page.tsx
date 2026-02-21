@@ -63,7 +63,7 @@ export default function HomePage() {
                 <br />
                 <span className="text-gold-light">Wisepen</span>
               </h1>
-              <p className="mt-2 font-[var(--font-playfair)] text-xl md:text-2xl text-white/60 font-light tracking-wide">
+              <p className="mt-2 font-[var(--font-playfair)] text-xl md:text-2xl text-white/80 font-light tracking-wide">
                 Language Institute
               </p>
             </motion.div>
@@ -73,11 +73,11 @@ export default function HomePage() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              <blockquote className="mt-10 text-white/50 text-base md:text-lg leading-relaxed font-light italic border-l-2 border-gold/30 pl-5">
+              <blockquote className="mt-10 text-white/70 text-base md:text-lg leading-relaxed font-light italic border-l-2 border-gold/50 pl-5">
                 &ldquo;교육은 미래로 가는 여권이다,
                 <br className="hidden sm:block" /> 내일은 오늘 준비하는 자의
                 것이다&rdquo;
-                <cite className="block mt-2 text-gold/60 text-sm not-italic">
+                <cite className="block mt-2 text-gold text-sm not-italic">
                   &mdash; Malcolm X
                 </cite>
               </blockquote>
@@ -100,7 +100,7 @@ export default function HomePage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white/25 text-white hover:bg-white/10 hover:text-white px-8 py-6 text-base rounded-none transition-colors duration-200"
+                className="border-white/50 text-white hover:bg-white/15 hover:text-white px-8 py-6 text-base rounded-none transition-colors duration-200"
               >
                 <a href="tel:031-915-2185">
                   <Phone className="w-4 h-4 mr-1" />
@@ -229,7 +229,7 @@ export default function HomePage() {
                 <h3 className="text-xl font-bold text-white mt-4 mb-2">
                   맞춤형 교육
                 </h3>
-                <p className="text-white/50 leading-relaxed text-sm">
+                <p className="text-white/70 leading-relaxed text-sm">
                   각 학생의 수준에 맞춘 구조화된 학습
                 </p>
               </div>
@@ -245,7 +245,7 @@ export default function HomePage() {
                   <h3 className="text-lg font-bold text-navy mt-2 mb-1">
                     풍부한 경험
                   </h3>
-                  <p className="text-foreground/55 leading-relaxed text-sm">
+                  <p className="text-foreground/70 leading-relaxed text-sm">
                     영어 교육 업계 20년 이상의 노하우
                   </p>
                 </div>
@@ -259,7 +259,7 @@ export default function HomePage() {
                   <h3 className="text-lg font-bold text-navy mt-2 mb-1">
                     지속적 지원
                   </h3>
-                  <p className="text-foreground/55 leading-relaxed text-sm">
+                  <p className="text-foreground/70 leading-relaxed text-sm">
                     높은 참여도와 풍부한 상호작용
                   </p>
                 </div>
@@ -287,7 +287,7 @@ export default function HomePage() {
                     <p className="font-[var(--font-playfair)] text-lg font-semibold text-white">
                       Arnold Chi
                     </p>
-                    <p className="text-sm text-white/40 mt-0.5">
+                    <p className="text-sm text-white/60 mt-0.5">
                       원장 / 헤드 강사
                     </p>
                   </div>
@@ -460,7 +460,7 @@ export default function HomePage() {
             <h2 className="font-[var(--font-playfair)] text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
               Start Your Journey
             </h2>
-            <p className="text-white/45 text-base md:text-lg mb-8 max-w-xl mx-auto">
+            <p className="text-white/70 text-base md:text-lg mb-8 max-w-xl mx-auto">
               와이스펜 어학원에서 여러분의 영어 실력 향상을 위한 첫걸음을
               시작하세요.
             </p>
@@ -479,7 +479,7 @@ export default function HomePage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white/20 text-white hover:bg-white/10 hover:text-white px-8 py-6 text-base rounded-none transition-colors duration-200"
+                className="border-white/40 text-white hover:bg-white/10 hover:text-white px-8 py-6 text-base rounded-none transition-colors duration-200"
               >
                 <Link href="/curriculum">교육과정 보기</Link>
               </Button>
