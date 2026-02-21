@@ -6,12 +6,14 @@ export default function Footer() {
   return (
     <footer className="bg-navy text-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="border-t border-white/10" />
+
         {/* Main Footer */}
-        <div className="py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
-          <div className="space-y-5">
+          <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10 overflow-hidden rounded-lg">
+              <div className="relative w-10 h-10 overflow-hidden rounded-none">
                 <Image
                   src="/logo.png"
                   alt="Wisepen Logo"
@@ -19,14 +21,9 @@ export default function Footer() {
                   className="object-cover"
                 />
               </div>
-              <div>
-                <p className="font-[var(--font-playfair)] text-lg font-bold tracking-tight">
-                  WISEPEN
-                </p>
-                <p className="text-[10px] tracking-[0.2em] text-white/50 uppercase">
-                  Language Institute
-                </p>
-              </div>
+              <p className="font-[var(--font-playfair)] text-xl font-bold tracking-tight">
+                WISEPEN
+              </p>
             </div>
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
               완전한 이해와 숙달을 우선시하며, 학생들에게 따뜻하고 효과적인
@@ -35,10 +32,8 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="space-y-5">
-            <h3 className="text-sm font-semibold tracking-wider uppercase text-gold">
-              바로가기
-            </h3>
+          <div className="space-y-4">
+            <h3 className="text-sm font-semibold text-white/70">바로가기</h3>
             <nav className="flex flex-col gap-3">
               <Link
                 href="/"
@@ -62,13 +57,11 @@ export default function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-5">
-            <h3 className="text-sm font-semibold tracking-wider uppercase text-gold">
-              연락처
-            </h3>
-            <div className="space-y-4">
+          <div className="space-y-4">
+            <h3 className="text-sm font-semibold text-white/70">연락처</h3>
+            <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 mt-0.5 text-gold/70 shrink-0" />
+                <MapPin className="w-4 h-4 mt-0.5 text-white/40 shrink-0" />
                 <p className="text-sm text-white/60 leading-relaxed">
                   경기도 고양시 일산서구 일산로 562
                   <br />
@@ -76,7 +69,7 @@ export default function Footer() {
                 </p>
               </div>
               <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-gold/70 shrink-0" />
+                <Phone className="w-4 h-4 text-white/40 shrink-0" />
                 <a
                   href="tel:031-915-2185"
                   className="text-sm text-white/60 hover:text-white transition-colors"
@@ -85,7 +78,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-gold/70 shrink-0" />
+                <Mail className="w-4 h-4 text-white/40 shrink-0" />
                 <a
                   href="mailto:Arnold@wisepenenglish.com"
                   className="text-sm text-white/60 hover:text-white transition-colors"
@@ -98,7 +91,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="py-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="py-5 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-white/40">
             &copy; {new Date().getFullYear()} Wisepen Language Institute. All
             rights reserved.

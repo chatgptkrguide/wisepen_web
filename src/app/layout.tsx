@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   description:
     "와이스펜 어학원 - 비판적 읽기, 문법, 구조화된 창의적 에세이 작성에 초점을 맞춘 프리미엄 영어 교육",
   keywords: "영어학원, 일산, 와이스펜, 어학원, 영어교육, TOEFL, SAT",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     title: "Wisepen Language Institute | 와이스펜 어학원",
     description: "완전한 이해와 숙달을 우선시하는 프리미엄 영어 교육",
