@@ -17,13 +17,13 @@ export default function AnimatedSection({
   direction = "up",
 }: AnimatedSectionProps) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-40px" });
+  const isInView = useInView(ref, { once: true, margin: "200px 0px" });
 
   const directionMap = {
-    up: { y: 24, x: 0 },
-    down: { y: -24, x: 0 },
-    left: { y: 0, x: 24 },
-    right: { y: 0, x: -24 },
+    up: { y: 16, x: 0 },
+    down: { y: -16, x: 0 },
+    left: { y: 0, x: 16 },
+    right: { y: 0, x: -16 },
     none: { y: 0, x: 0 },
   };
 
@@ -35,8 +35,8 @@ export default function AnimatedSection({
       initial={{ opacity: 0, x, y }}
       animate={isInView ? { opacity: 1, x: 0, y: 0 } : { opacity: 0, x, y }}
       transition={{
-        duration: 0.5,
-        delay: Math.min(delay, 0.3),
+        duration: 0.4,
+        delay: Math.min(delay, 0.2),
         ease: [0.21, 0.47, 0.32, 0.98],
       }}
       className={className}
