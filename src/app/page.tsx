@@ -73,7 +73,7 @@ export default function HomePage() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              <blockquote className="mt-10 text-white/70 text-base md:text-lg leading-relaxed font-light italic border-l-2 border-gold/50 pl-5">
+              <blockquote className="mt-10 text-white/80 text-base md:text-lg leading-relaxed font-normal italic border-l-2 border-gold/60 pl-5">
                 &ldquo;교육은 미래로 가는 여권이다,
                 <br className="hidden sm:block" /> 내일은 오늘 준비하는 자의
                 것이다&rdquo;
@@ -239,7 +239,7 @@ export default function HomePage() {
             <div className="lg:col-span-3 flex flex-col gap-6">
               <AnimatedSection delay={0.2}>
                 <div className="border-l-2 border-gold pl-6 py-4">
-                  <span className="font-[var(--font-playfair)] text-3xl font-bold text-navy/10 leading-none">
+                  <span className="font-[var(--font-playfair)] text-3xl font-bold text-navy/20 leading-none">
                     02
                   </span>
                   <h3 className="text-lg font-bold text-navy mt-2 mb-1">
@@ -252,8 +252,8 @@ export default function HomePage() {
               </AnimatedSection>
 
               <AnimatedSection delay={0.35}>
-                <div className="border-l-2 border-gold/50 pl-6 py-4">
-                  <span className="font-[var(--font-playfair)] text-3xl font-bold text-navy/10 leading-none">
+                <div className="border-l-2 border-gold pl-6 py-4">
+                  <span className="font-[var(--font-playfair)] text-3xl font-bold text-navy/20 leading-none">
                     03
                   </span>
                   <h3 className="text-lg font-bold text-navy mt-2 mb-1">

@@ -379,20 +379,20 @@ export default function CurriculumPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-navy grain relative py-16 md:py-20">
+      <section className="bg-cream/30 relative py-16 md:py-20">
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <AnimatedSection delay={0.1} direction="up">
-            <h2 className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
+            <h2 className="font-[var(--font-playfair)] text-3xl md:text-4xl font-bold text-navy mb-4">
               Start Your
-              <span className="text-gold-light"> Journey</span>
+              <span className="text-gold"> Journey</span>
             </h2>
-            <p className="text-white/70 max-w-lg mx-auto leading-relaxed mb-8">
+            <p className="text-foreground/60 max-w-lg mx-auto leading-relaxed mb-8">
               레벨테스트를 통해 학생에게 가장 적합한 과정을 안내해 드립니다.
               지금 상담을 예약하세요.
             </p>
             <a
               href="tel:031-915-2185"
-              className="inline-block bg-gold text-navy px-8 py-3.5 rounded-sm text-sm font-bold tracking-wide hover:bg-gold-light transition-colors duration-200"
+              className="inline-block bg-navy text-white px-8 py-3.5 rounded-sm text-sm font-bold tracking-wide hover:bg-navy-light transition-colors duration-200"
             >
               상담 예약하기
             </a>
