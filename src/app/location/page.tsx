@@ -51,7 +51,7 @@ export default function LocationPage() {
                       href="https://map.naver.com/v5/search/%EC%8B%A0%EC%9D%BC%EC%82%B0%EC%97%B0%ED%95%A9%EC%83%81%EA%B0%80"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-xs text-navy font-medium hover:text-gold transition-colors mt-1"
+                      className="inline-flex items-center gap-1 text-xs text-navy font-medium hover:text-gold transition-colors mt-1 py-2"
                     >
                       네이버 지도에서 보기 &rarr;
                     </a>
@@ -66,7 +66,7 @@ export default function LocationPage() {
                     <p className="text-sm text-foreground/80">031-915-2185</p>
                     <a
                       href="tel:031-915-2185"
-                      className="inline-flex items-center gap-1 text-xs text-navy font-medium hover:text-gold transition-colors mt-1"
+                      className="inline-flex items-center gap-1 text-xs text-navy font-medium hover:text-gold transition-colors mt-1 py-2"
                     >
                       전화 걸기 &rarr;
                     </a>
@@ -83,7 +83,7 @@ export default function LocationPage() {
                     </p>
                     <a
                       href="mailto:Arnold@wisepenenglish.com"
-                      className="inline-flex items-center gap-1 text-xs text-navy font-medium hover:text-gold transition-colors mt-1"
+                      className="inline-flex items-center gap-1 text-xs text-navy font-medium hover:text-gold transition-colors mt-1 py-2"
                     >
                       이메일 보내기 &rarr;
                     </a>
@@ -146,7 +146,7 @@ export default function LocationPage() {
                       href="https://www.google.com/maps/dir/?api=1&destination=37.6688,126.7542"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-navy font-medium hover:text-gold transition-colors"
+                      className="text-navy font-medium hover:text-gold transition-colors py-2"
                     >
                       길찾기 &rarr;
                     </a>

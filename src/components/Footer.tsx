@@ -34,22 +34,22 @@ export default function Footer() {
           {/* Quick Links */}
           <div className="space-y-4">
             <h3 className="text-sm font-semibold text-white/70">바로가기</h3>
-            <nav className="flex flex-col gap-3">
+            <nav className="flex flex-col gap-1">
               <Link
                 href="/"
-                className="text-sm text-white/60 hover:text-white transition-colors"
+                className="text-sm text-white/60 hover:text-white transition-colors py-2"
               >
                 학원 소개
               </Link>
               <Link
                 href="/curriculum"
-                className="text-sm text-white/60 hover:text-white transition-colors"
+                className="text-sm text-white/60 hover:text-white transition-colors py-2"
               >
                 교육과정
               </Link>
               <Link
                 href="/location"
-                className="text-sm text-white/60 hover:text-white transition-colors"
+                className="text-sm text-white/60 hover:text-white transition-colors py-2"
               >
                 오시는길
               </Link>
@@ -72,7 +72,7 @@ export default function Footer() {
                 <Phone className="w-4 h-4 text-white/50 shrink-0" />
                 <a
                   href="tel:031-915-2185"
-                  className="text-sm text-white/60 hover:text-white transition-colors"
+                  className="text-sm text-white/60 hover:text-white transition-colors py-1"
                 >
                   031-915-2185
                 </a>
@@ -81,7 +81,7 @@ export default function Footer() {
                 <Mail className="w-4 h-4 text-white/50 shrink-0" />
                 <a
                   href="mailto:Arnold@wisepenenglish.com"
-                  className="text-sm text-white/60 hover:text-white transition-colors"
+                  className="text-sm text-white/60 hover:text-white transition-colors py-1"
                 >
                   Arnold@wisepenenglish.com
                 </a>
