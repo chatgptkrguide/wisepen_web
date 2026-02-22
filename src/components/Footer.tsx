@@ -12,19 +12,13 @@ export default function Footer() {
         <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10 overflow-hidden rounded-none">
-                <Image
-                  src="/logo.png"
-                  alt="Wisepen Logo"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <p className="font-[var(--font-playfair)] text-xl font-bold tracking-tight">
-                WISEPEN
-              </p>
-            </div>
+            <Image
+              src="/logo.png"
+              alt="와이스펜어학원"
+              width={100}
+              height={69}
+              className="h-[46px] w-auto brightness-0 invert"
+            />
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
               완전한 이해와 숙달을 우선시하며, 학생들에게 따뜻하고 효과적인
               학습 환경을 제공합니다.
