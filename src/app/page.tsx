@@ -100,7 +100,7 @@ export default function HomePage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white/50 text-white hover:bg-white/15 hover:text-white px-8 py-6 text-base rounded-none transition-colors duration-200"
+                className="bg-transparent border-white/50 text-white hover:bg-white/15 hover:text-white px-8 py-6 text-base rounded-none transition-colors duration-200"
               >
                 <a href="tel:031-915-2185">
                   <Phone className="w-4 h-4 mr-1" />
@@ -479,7 +479,7 @@ export default function HomePage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white/40 text-white hover:bg-white/10 hover:text-white px-8 py-6 text-base rounded-none transition-colors duration-200"
+                className="bg-transparent border-white/40 text-white hover:bg-white/15 hover:text-white px-8 py-6 text-base rounded-none transition-colors duration-200"
               >
                 <Link href="/curriculum">교육과정 보기</Link>
               </Button>
