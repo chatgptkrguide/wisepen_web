@@ -17,7 +17,7 @@ export default function Footer() {
               alt="와이스펜어학원"
               width={100}
               height={69}
-              className="h-[46px] w-auto brightness-0 invert"
+              className="h-[46px] w-auto"
             />
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
               완전한 이해와 숙달을 우선시하며, 학생들에게 따뜻하고 효과적인
